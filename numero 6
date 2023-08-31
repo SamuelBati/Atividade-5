@@ -1,0 +1,7 @@
+#include<stdio.h>
+main(){
+
+  
+  
+  printf("Digite um numero por favor");
+  scanf("%
