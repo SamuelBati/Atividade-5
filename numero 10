@@ -1,0 +1,34 @@
+#include<stdio.h>
+main(math){
+
+  int a, b, c, raizum, raizdois, raizunica, delta;
+
+  printf("Vamos calcular as raizes de uma equação de segundo grau, antes de tudo digite o valor de a");
+    scanf("%d", &a);
+
+  if(a==0){
+    printf("perdao, mas se o valor de a for igual a zero, nao sera uma equação de segundo grau, digite outro valor por favor");
+  }
+
+  printf("Agora digite por favor o valor de b");
+    scanf("%d", &b);
+
+  printf("por ultimo o valor de c");
+    scanf("%d", &c);
+
+  delta= (b**2)-4*a*c;
+
+  if(delta<0){
+    printf("delta e igual a zero, portanto nao existe raiz real para a funcao");
+  }
+
+  else if(delta==0){
+    raizunica= -b/(2*a);
+    printf("parabens, a unica raiz da equacao e igual a:%d", raizunica);
+  }
+  else if(delta>0){
+    raizum= (-b+(sqrt delta))/2*a;
+    raizdois= (-b-(sqrt delta))/2*a;
+    printf("parabens, as duas raizes da equacao sao:%d", raizum e raizdois);
+
+}
