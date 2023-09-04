@@ -1,0 +1,20 @@
+#include<stdio.h>
+main(){
+
+  int idade, anosdetrabalho;
+
+  printf("Digite aqui a sua idade por favor");
+    scanf("%d", &idade);
+
+  printf("Agora digite quantos anos completos voce trabalhou");
+    scanf("%d", &anosdetrabalho);
+
+  if(idade>=65||anosdetrabalho>=30||(idade>=60 && anosdetrabalho>=25)){
+    printf("Parabens voce pode se aposentar");
+  }
+
+  else{
+    printf("Perdao, mas voce n pode se aposentar");
+  }
+
+}
