@@ -1,6 +1,144 @@
 #include<stdio.h>
 main(){
 
-  float salarioatual, reajuste, tempodeservico, bonus; 
+  float salarioatual, reajuste, tempodeservico;
+
+  printf("Ola, por favor digite seu salario atual");
+    scanf("%f", &salarioatual);
+
+  printf("Agora seus anos completos de servico");
+    scanf("%f", &tempodeservico);
+
+  if(salarioatual<=500 && tempodeservico<=1){
+    reajuste= (25/100)*salarioatual;
+    printf("Seu novo salario e: %f", reajuste);
+
+  else if(salarioatual<=500 && tempodeservico<=3){
+    reajuste= (25/100)*salarioatual+100;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  else if(salarioatual<=500 && 4<=tempodeservico<=6){
+    reajuste= (25/100)*salarioatual+200;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  else if(salarioatual<=500 && 7<=tempodeservico<=10){
+    reajuste= (25/100)*salarioatual+300;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  else if(salarioatual<=500 && tempodeservico>10){
+    reajuste= (25/100)*salarioatual+500;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  }
+
+  if(salarioatual<=500 && tempodeservico<=1){
+    reajuste= (25/100)*salarioatual;
+    printf("Seu novo salario e: %f", reajuste);
+
+  else if(salarioatual<=500 && tempodeservico<=3){
+    reajuste= (25/100)*salarioatual+100;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  else if(salarioatual<=500 && 4<=tempodeservico<=6){
+    reajuste= (25/100)*salarioatual+200;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  else if(salarioatual<=500 && 7<=tempodeservico<=10){
+    reajuste= (25/100)*salarioatual+300;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  else if(salarioatual<=500 && tempodeservico>10){
+    reajuste= (25/100)*salarioatual+500;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  }
+
+  if(salarioatual<=1000 && tempodeservico<=1){
+    reajuste= (25/100)*salarioatual;
+    printf("Seu novo salario e: %f", reajuste);
+
+  else if(salarioatual<=500 && tempodeservico<=3){
+    reajuste= (20/100)*salarioatual+100;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  else if(salarioatual<=500 && 4<=tempodeservico<=6){
+    reajuste= (20/100)*salarioatual+200;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  else if(salarioatual<=500 && 7<=tempodeservico<=10){
+    reajuste= (20/100)*salarioatual+300;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  else if(salarioatual<=500 && tempodeservico>10){
+    reajuste= (20/100)*salarioatual+500;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  }
+
+  if(salarioatual<=1500 && tempodeservico<=1){
+    reajuste= (15/100)*salarioatual;
+    printf("Seu novo salario e: %f", reajuste);
+
+  else if(salarioatual<=500 && tempodeservico<=3){
+    reajuste= (15/100)*salarioatual+100;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  else if(salarioatual<=500 && 4<=tempodeservico<=6){
+    reajuste= (15/100)*salarioatual+200;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  else if(salarioatual<=500 && 7<=tempodeservico<=10){
+    reajuste= (15/100)*salarioatual+300;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  else if(salarioatual<=500 && tempodeservico>10){
+    reajuste= (15/100)*salarioatual+500;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  }
+
+  if(salarioatual<=2000 && tempodeservico<=1){
+    reajuste= (10/100)*salarioatual;
+    printf("Seu novo salario e: %f", reajuste);
+
+  else if(salarioatual<=2000 && tempodeservico<=3){
+    reajuste= (10/100)*salarioatual+100;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  else if(salarioatual<=2000 && 4<=tempodeservico<=6){
+    reajuste= (10/100)*salarioatual+200;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  else if(salarioatual<=2000 && 7<=tempodeservico<=10){
+    reajuste= (10/100)*salarioatual+300;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  else if(salarioatual<=2000 && tempodeservico>10){
+    reajuste= (10/100)*salarioatual+500;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  }
+
+  if(salarioatual>2000 && tempodeservico<=1){
+    reajuste= (0/100)*salarioatual;
+    printf("Seu novo salario e: %f", reajuste);
+
+  else if(salarioatual>2000 && tempodeservico<=3){
+    reajuste= (0/100)*salarioatual+100;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  else if(salarioatual>2000 && 4<=tempodeservico<=6){
+    reajuste= (0/100)*salarioatual+200;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  else if(salarioatual>2000 && 7<=tempodeservico<=10){
+    reajuste= (0/100)*salarioatual+300;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  else if(salarioatual>2000 && tempodeservico>10){
+    reajuste= (0/100)*salarioatual+500;
+    printf("Seu novo salario e: %f", reajuste);
+  }
+  }
 
 }
