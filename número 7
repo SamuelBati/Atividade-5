@@ -12,8 +12,16 @@ main(){
   printf("por ultimo a nota da prova 3");
     scanf("%f", &p3);
 
-  media= (p1+p2+(p3*2))/3;
+  media= (p1+p2+(p3*2))/4;
 
   printf(" a sua media de notas e igual a %f", media);
+
+  if(media>=7){
+    printf("Parabens, voce foi aprovado");
+  }
+
+  else{
+    printf("desculpe, mas infelizmente voce nao foi aprovado");
+  }
 
 }
